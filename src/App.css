@@ -1,0 +1,32 @@
+.parent {
+  height: 40vh;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.child:first-child {
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+  background-color: blue;
+}
+.child:nth-child(2) {
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+  background-color: red;
+}
+.child:nth-child(3) {
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+  background-color: pink;
+}
+.child:nth-child(4) {
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+  background-color: peachpuff;
+}
